@@ -2,7 +2,10 @@
 ![](images/overview_fcmf.png)
 
 # Dataset
-Download our ViMACSA dataset directly at: https://drive.google.com/file/d/1OjWwzdbhvhYc864Tpt6Xw9anBLfgNwmt/view?usp=sharing
+To understand more about the dataset, please read this paper: [New Benchmark Dataset and Fine-Grained Cross-Modal Fusion Framework for Vietnamese Multimodal Aspect-Category Sentiment Analysis
+](https://arxiv.org/abs/2405.00543) 
+
+Our dataset is used only for research purposes. Download our ViMACSA dataset directly at: https://drive.google.com/file/d/1OjWwzdbhvhYc864Tpt6Xw9anBLfgNwmt/view?usp=sharing
 
 ## Dataset statistics
 ![The overview statistics of ViMACSA dataset](images/dataset_stat.png)
