@@ -21,13 +21,11 @@ We will make our code available once our article is accepted.
 # Citation
 Please cite the following paper if you use this dataset:
 ```bibtex
-@misc{nguyen2024new,
-      title={New Benchmark Dataset and Fine-Grained Cross-Modal Fusion Framework for Vietnamese Multimodal Aspect-Category Sentiment Analysis}, 
-      author={Quy Hoang Nguyen and Minh-Van Truong Nguyen and Kiet Van Nguyen},
-      year={2024},
-      eprint={2405.00543},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{nguyen2024new,
+  title={New Benchmark Dataset and Fine-Grained Cross-Modal Fusion Framework for Vietnamese Multimodal Aspect-Category Sentiment Analysis},
+  author={Nguyen, Quy Hoang and Nguyen, Minh-Van Truong and Van Nguyen, Kiet},
+  journal={arXiv preprint arXiv:2405.00543},
+  year={2024}
 }
 ```
 
