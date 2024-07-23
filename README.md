@@ -52,7 +52,7 @@ python image_processing/run_roi_categories.py
 !torchrun --standalone --nproc_per_node=n_gpu run_multimodal_fcmf.py
         --data_dir data_folder_dir
         --list_aspect Location Food Room Facilities Service Public_area 
-        --num_polarity 4 --num_imgs 1 --num_rois 4
+        --num_polarity 4 --num_imgs 7 --num_rois 4
         --image_dir path_to_image_folder
         --pretrained_model vinai/phobert-base 
         --output_dir model_output 
