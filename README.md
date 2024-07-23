@@ -2,6 +2,10 @@
 ![](images/overview_fcmf.png)
 
 # Dataset
+Our ViMACSA dataset comprises 4,876 documents and 14,000 images. Each document is accompanied by up to 7 images. This dataset is constructed with the goal of recognizing both explicit aspects and implicit aspects in the document.
+![](images/ex_data.png)
+
+
 To understand more about the dataset, please read this paper: [New Benchmark Dataset and Fine-Grained Cross-Modal Fusion Framework for Vietnamese Multimodal Aspect-Category Sentiment Analysis
 ](https://arxiv.org/abs/2405.00543) 
 
@@ -29,3 +33,5 @@ Please cite the following paper if you use this dataset:
 }
 ```
 
+# Contact
+If you have any questions, please feel free to contact nhq188@gmail.com.
