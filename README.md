@@ -1,5 +1,5 @@
 # ViMACSA: Vietnamese Multimodal Aspect-Category Sentiment Analysis
-## Overview
+# Overview
 *  Introduce a new Vietnamese multimodal dataset, named ViMACSA, which consists of 4,876 text-image pairs with 14,618 fine-grained annotations for both text and image in the hotel domain.
 *  Propose a Fine-Grained Cross-Modal Fusion Framework (FCMF) that effectively learns both intra- and inter-modality interactions.
   
