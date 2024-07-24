@@ -3,7 +3,7 @@
 *  Introduce a new Vietnamese multimodal dataset, named ViMACSA, which consists of 4,876 text-image pairs with 14,618 fine-grained annotations for both text and image in the hotel domain.
 *  Propose a Fine-Grained Cross-Modal Fusion Framework (FCMF) that effectively learns both intra- and inter-modality interactions.
   
-<img src="images/overview_fcmf.png" width="768" height="768">
+<img src="images/overview_fcmf.png" width="512" height="512">
 
 # Dataset
 Our ViMACSA dataset comprises 4,876 documents and 14,000 images. Each document is accompanied by up to 7 images. This dataset is constructed with the goal of recognizing both explicit aspects and implicit aspects in the document.
