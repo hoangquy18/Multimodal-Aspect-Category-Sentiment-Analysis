@@ -5,6 +5,14 @@
   
 <img src="images/overview_fcmf.png" width="512" height="512">
 
+## Table of Contents
+
+- [Dataset](#dataset)
+- [Running The Code](#running-the-code)
+- [Compare with different baseline models](#compare-with-different-baseline-models)
+- [Citation](#citation)
+- [TODO](#todo)
+
 # Dataset
 Our ViMACSA dataset comprises 4,876 documents and 14,000 images. Each document is accompanied by up to 7 images. This dataset is constructed with the goal of recognizing both explicit aspects and implicit aspects in the document.
 
@@ -64,6 +72,7 @@ python image_processing/run_roi_categories.py
         --fp16 
         --ddp 
 ```
+
 # Compare with different baseline models.
 ![Experiment results on the ViMACSA dataset](images/exper.png)                   
 *Table 2. Experiment results on the ViMACSA dataset.*
@@ -81,3 +90,11 @@ Please cite the following paper if you use this dataset:
 
 # Contact
 If you have any questions, please feel free to contact nhq188@gmail.com.
+
+# Todo
+- [x] Multi GPU training with DDP.
+- [x] Custom classification class.
+- [x] Flexible Framework Architecture.
+- [ ] Compare Transformers with Mamda, xLSTM, KAN.
+- [ ] Intergate with Spark.
+- [ ] Add Inference.
