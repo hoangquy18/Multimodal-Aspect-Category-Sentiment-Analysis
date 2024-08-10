@@ -26,6 +26,8 @@ To understand more about the dataset, please read this paper: [New Benchmark Dat
 
 Our dataset is used only for research purposes. Download our ViMACSA dataset directly at: https://drive.google.com/file/d/1OjWwzdbhvhYc864Tpt6Xw9anBLfgNwmt/view?usp=sharing
 
+Our dataset is also available on Kaggle: https://www.kaggle.com/datasets/nguynquy/macsaa/data
+
 ## Dataset statistics
 ![The overview statistics of ViMACSA dataset](images/dataset_stat.png)
 *Table 1. The overview statistics of ViMACSA dataset.*
