@@ -48,7 +48,7 @@ class MACSADataset(torch.utils.data.Dataset):
         # img = os.path.join(self.img_folder,idx_data[2])
         list_image_aspect = []
         list_roi_aspect = []
-        for img_name in idx_data[1]:
+        for img_name in idx_data[1][:self.num_img]:
             try:
                 list_image_aspect.extend(self.dict_image_aspect[img_name])
             except:
@@ -129,7 +129,7 @@ class MACSADataset(torch.utils.data.Dataset):
         list_img_features = []
         global_roi_features = [] # num_img, num_roi, 3, 224, 224
         global_roi_coor = []
-        for img_path in list_img_path:
+        for img_path in list_img_path[:self.num_img]:
           image_os_path = os.path.join(self.img_folder, img_path)
           one_image = read_image(image_os_path, mode = ImageReadMode.RGB)
           img_transform = self.transform(one_image).unsqueeze(0) # 1, 3, 224, 224
