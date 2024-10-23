@@ -72,6 +72,13 @@ python image_processing/run_roi_categories.py
         --fp16 
         --ddp 
 ```
+## Inference
+Download our weights and place them in the same folder: https://drive.google.com/file/d/1NHI24JxyjXfi1lU7nF99-TV7vBL-StZm/view?usp=sharing
+```
+python inference.py --text "Khách sạn này rất đẹp, nhân viên nhiệt tình"
+                    --image_list image_0.png image_1.png image_2.png
+                    --num_rois 4
+```
 
 # Compare with different baseline models.
 ![Experiment results on the ViMACSA dataset](images/exper.png)                   
@@ -95,6 +102,5 @@ If you have any questions, please feel free to contact nhq188@gmail.com.
 - [x] Multi GPU training with DDP.
 - [x] Custom classification class.
 - [x] Flexible Framework Architecture.
-- [ ] Compare Transformers with Mamda, xLSTM, KAN.
+- [x] Add Inference.
 - [ ] Intergate with Spark.
-- [ ] Add Inference.
