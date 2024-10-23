@@ -185,7 +185,13 @@ if __name__ == "__main__":
     parser.add_argument("--image_list", 
                         "--names-list", 
                         nargs='+', help = "Optional. List of image associated with text.")
-    
+
+    parser.add_argument("--num_images",
+                        type=int,
+                        default = 7,
+                        required=False,
+                        help="number of images")
+
     parser.add_argument("--num_rois",
                         type=int,
                         default = 4,
@@ -201,8 +207,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     num_rois = args.num_rois
+    num_imgs = args.num_imgs
     list_image_path = args.image_list
-    num_imgs = len(list_image_path)
 
     text = args.text
     normalize_class = TextNormalize()
