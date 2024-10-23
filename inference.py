@@ -209,7 +209,8 @@ if __name__ == "__main__":
     num_rois = args.num_rois
     num_imgs = args.num_images
     list_image_path = args.image_list
-
+    if list_image_path == None:
+        list_image_path = []
     text = args.text
     normalize_class = TextNormalize()
     text = normalize_class.normalize(text_normalize(convert_unicode(text)))    
