@@ -207,7 +207,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     num_rois = args.num_rois
-    num_imgs = args.num_imgs
+    num_imgs = args.num_images
     list_image_path = args.image_list
 
     text = args.text
