@@ -87,11 +87,15 @@ python inference.py --text "Khách sạn này rất đẹp, nhân viên nhiệt 
 # Citation
 Please cite the following paper if you use this dataset:
 ```bibtex
-@article{nguyen2024new,
-  title={New Benchmark Dataset and Fine-Grained Cross-Modal Fusion Framework for Vietnamese Multimodal Aspect-Category Sentiment Analysis},
+@article{nguyen2025new,
+  title={New benchmark dataset and fine-grained cross-modal fusion framework for Vietnamese multimodal aspect-category sentiment analysis},
   author={Nguyen, Quy Hoang and Nguyen, Minh-Van Truong and Van Nguyen, Kiet},
-  journal={arXiv preprint arXiv:2405.00543},
-  year={2024}
+  journal={Multimedia Systems},
+  volume={31},
+  number={1},
+  pages={1--28},
+  year={2025},
+  publisher={Springer}
 }
 ```
 
